@@ -1,0 +1,11 @@
+file_format: "1"
+id: totem
+name: Saurus
+type: shield
+url: https://github.com/alxzh/saurus
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - saurus_left
+  - saurus_right
