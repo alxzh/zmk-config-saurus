@@ -1,18 +1,59 @@
-/*
- * Copyright (c) 2022 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <physical_layouts.dtsi>
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,matrix_transform = &default_transform;
+        zmk,physical-layout = &default_layout;
     };
 
-default_transform: keymap_transform_0 {
+
+    default_layout: default_layout {
+        compatible = "zmk,physical-layout";
+        display-name = "Default Layout";
+        transform = <&default_transform>;
+
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100    0   75       0     0     0>
+            , <&key_physical_attrs 100 100  100   25       0     0     0>
+            , <&key_physical_attrs 100 100  200    0       0     0     0>
+            , <&key_physical_attrs 100 100  300   25       0     0     0>
+            , <&key_physical_attrs 100 100  400   25       0     0     0>
+            , <&key_physical_attrs 100 100  900   25       0     0     0>
+            , <&key_physical_attrs 100 100 1000   25       0     0     0>
+            , <&key_physical_attrs 100 100 1100    0       0     0     0>
+            , <&key_physical_attrs 100 100 1200   25       0     0     0>
+            , <&key_physical_attrs 100 100 1300   75       0     0     0>
+            , <&key_physical_attrs 100 100    0  175       0     0     0>
+            , <&key_physical_attrs 100 100  100  125       0     0     0>
+            , <&key_physical_attrs 100 100  200  100       0     0     0>
+            , <&key_physical_attrs 100 100  300  125       0     0     0>
+            , <&key_physical_attrs 100 100  400  125       0     0     0>
+            , <&key_physical_attrs 100 100  900  125       0     0     0>
+            , <&key_physical_attrs 100 100 1000  125       0     0     0>
+            , <&key_physical_attrs 100 100 1100  100       0     0     0>
+            , <&key_physical_attrs 100 100 1200  125       0     0     0>
+            , <&key_physical_attrs 100 100 1300  175       0     0     0>
+            , <&key_physical_attrs 100 100    0  275       0     0     0>
+            , <&key_physical_attrs 100 100  100  225       0     0     0>
+            , <&key_physical_attrs 100 100  200  200       0     0     0>
+            , <&key_physical_attrs 100 100  300  225       0     0     0>
+            , <&key_physical_attrs 100 100  400  225       0     0     0>
+            , <&key_physical_attrs 100 100  900  225       0     0     0>
+            , <&key_physical_attrs 100 100 1000  225       0     0     0>
+            , <&key_physical_attrs 100 100 1100  200       0     0     0>
+            , <&key_physical_attrs 100 100 1200  225       0     0     0>
+            , <&key_physical_attrs 100 100 1300  275       0     0     0>
+            , <&key_physical_attrs 100 100  300  325       0     0     0>
+            , <&key_physical_attrs 100 100  400  325    1500   400   425>
+            , <&key_physical_attrs 100 100  500  370    3000   530   460>
+            , <&key_physical_attrs 100 100  800  370 (-3000)   870   460>
+            , <&key_physical_attrs 100 100  900  325 (-1500)  1000   425>
+            , <&key_physical_attrs 100 100 1000  325       0     0     0>
+            ;
+    };
+
+    default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <10>;
         rows = <4>;
@@ -34,4 +75,8 @@ default_transform: keymap_transform_0 {
         diode-direction = "col2row"; 
 	wakeup-source;
     };
+
+	&xiao_serial {
+	    status = "disabled";
+	};
 };
