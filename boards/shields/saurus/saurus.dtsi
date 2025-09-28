@@ -75,8 +75,8 @@
         diode-direction = "col2row"; 
 	wakeup-source;
     };
+};
 
-	&xiao_serial {
-	    status = "disabled";
-	};
+&xiao_serial {
+    status = "disabled";
 };
