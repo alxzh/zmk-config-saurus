@@ -1,7 +1,6 @@
 include:
   - board: seeeduino_xiao_ble
     shield: saurus_left
-    snippet: zmk-usb-logging
   - board: seeeduino_xiao_ble
     shield: saurus_right
   - board: seeeduino_xiao_ble
