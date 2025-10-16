@@ -1,9 +1,7 @@
 include:
   - board: seeeduino_xiao_ble
     shield: saurus_left
-    snippet:
-      - zmk-usb-logging
-      - studio-rpc-usb-uart
+    snippet: zmk-usb-logging
   - board: seeeduino_xiao_ble
     shield: saurus_right
     snippet: zmk-usb-logging

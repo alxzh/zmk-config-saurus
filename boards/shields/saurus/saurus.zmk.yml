@@ -6,7 +6,6 @@ url: https://github.com/alxzh/saurus
 requires: [seeeduino_xiao_ble]
 features:
   - keys
-  - studio
 siblings:
   - saurus_left
   - saurus_right
