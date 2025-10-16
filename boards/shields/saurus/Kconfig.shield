@@ -1,5 +1,5 @@
 config SHIELD_SAURUS_LEFT
-    def_bool $(shields_list_contains, saurus_left)
+    def_bool $(shields_list_contains,saurus_left)
 
 config SHIELD_SAURUS_RIGHT
-    def_bool $(shields_list_contains, saurus_right)
+    def_bool $(shields_list_contains,saurus_right)
