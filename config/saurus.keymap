@@ -142,10 +142,10 @@
 
         night {
             bindings = <
-  &kp B              &kp F                &kp L                &kp D          &kp Q     &kp SQT        &kp W        &kp O                 &kp U                 &kp J
-  &hml LEFT_SHIFT N  &hml LEFT_CONTROL S  &hml LEFT_COMMAND H  &ltl 3 T       &kp K     &kp Y          &ltr 3 C     &hmr RIGHT_COMMAND A  &hmr RIGHT_CONTROL E  &hmr RIGHT_SHIFT I
-  &kp X              &kp V                &kp M                &kp P          &kp Z     &kp SEMICOLON  &kp G        &kp COMMA             &kp PERIOD            &kp SLASH
-                                          &kp MINUS            &lt_r_tab 1 0  &gresc    &lt 4 ENTER    &lt 2 SPACE  &kp BACKSPACE
+  &kp B              &kp F                &kp L                &kp D          &kp Q          &kp SQT        &kp W        &kp O                 &kp U                 &kp J
+  &hml LEFT_SHIFT N  &hml LEFT_CONTROL S  &hml LEFT_COMMAND H  &ltl 3 T       &kp K          &kp Y          &ltr 3 C     &hmr RIGHT_COMMAND A  &hmr RIGHT_CONTROL E  &hmr RIGHT_SHIFT I
+  &kp X              &kp V                &kp M                &kp P          &kp Z          &kp MINUS      &kp G        &kp COMMA             &kp PERIOD            &kp SLASH
+                                          &gresc               &lt_r_tab 1 0  &lt 4 ENTER    &kp BACKSPACE  &lt 2 SPACE  &kp SEMICOLON
             >;
         };
 
@@ -169,10 +169,10 @@
 
         sym {
             bindings = <
-  &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE       &kp CARET   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND  &kp BACKSLASH
-  &kp EXCLAMATION  &kp ASTERISK   &kp SLASH         &kp EQUAL          &kp HASH       &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COLON
-  &kp AT_SIGN      &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT    &kp TILDE   &kp UNDERSCORE        &kp COMMA              &kp PERIOD     &kp QUESTION
-                                  &kp UNDERSCORE    &trans             &trans         &kp ENTER   &kp SPACE             &trans
+  &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE       &kp CARET      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND  &kp BACKSLASH
+  &kp EXCLAMATION  &kp ASTERISK   &kp SLASH         &kp EQUAL          &kp HASH       &kp DOLLAR     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COLON
+  &kp AT_SIGN      &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT    &kp TILDE      &kp UNDERSCORE        &kp COMMA              &kp PERIOD     &kp QUESTION
+                                  &kp UNDERSCORE    &trans             &kp ENTER      &kp BACKSPACE  &kp SPACE             &trans
             >;
         };
 
