@@ -1,13 +1,13 @@
 layout: {zmk_keyboard: saurus}
 layers:
   night:
-  - [B, F, L, D, Q, '''', W, O, U, J]
+  - [B, F, L, D, Q, '''', W, O, U, Y]
   - - {t: N, h: LEFT SHIFT}
     - {t: S, h: ⌃}
     - {t: H, h: LEFT COMMAND}
     - {t: T, h: sym}
     - K
-    - Y
+    - J
     - {t: C, h: sym}
     - {t: A, h: RIGHT COMMAND}
     - {t: E, h: ⌃}
@@ -79,31 +79,31 @@ layers:
     - '}'
     - '&'
     - {t: \, s: '|'}
-  - - '!'
+  - - _
     - '*'
     - {t: /, s: '?'}
     - {t: '=', s: +, type: held}
-    - '#'
     - $
+    - '#'
     - (
     - )
     - {t: ;, s: ':'}
     - ':'
-  - - '@'
+  - - '!'
     - +
     - '['
     - ']'
     - '%'
     - '~'
-    - _
+    - '@'
     - {t: ',', s: <}
     - .
     - '?'
   - - {t: ▽, type: trans}
-    - SPACE
     - {t: ▽, type: trans}
     - ENTER
     - BACKSPACE
+    - SPACE
     - {t: ▽, type: trans}
   controls:
   - - '&ind_bat'
