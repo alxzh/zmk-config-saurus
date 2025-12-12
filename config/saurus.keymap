@@ -135,6 +135,28 @@
             quick-tap-ms = <200>;
             flavor = "balanced";
         };
+
+        space_tab: space_tab {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SPACE_TAB";
+            bindings = <&kp SPACE>, <&kp TAB>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        lt_space_tab: lt_space_tab {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_SPACE_TAB";
+            bindings = <&lt>, <&space_tab>;
+
+            #binding-cells = <2>;
+            retro-tap;
+            hold-trigger-key-positions = <33 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 34 35>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+            quick-tap-ms = <200>;
+        };
     };
 
     keymap {
@@ -142,10 +164,10 @@
 
         night {
             bindings = <
-  &kp B              &kp F                &kp L                &kp D          &kp Q          &kp SQT        &kp W        &kp O                 &kp U                 &kp Y
-  &hml LEFT_SHIFT N  &hml LEFT_CONTROL S  &hml LEFT_COMMAND H  &ltl 3 T       &kp K          &kp J          &ltr 3 C     &hmr RIGHT_COMMAND A  &hmr RIGHT_CONTROL E  &hmr RIGHT_SHIFT I
-  &kp X              &kp V                &kp M                &kp P          &kp Z          &kp MINUS      &kp G        &kp COMMA             &kp PERIOD            &kp SLASH
-                                          &gresc               &lt_r_tab 1 0  &lt 4 ENTER    &kp BACKSPACE  &lt 2 SPACE  &kp SEMICOLON
+  &kp B              &kp F                &kp L                &kp D              &kp Q          &kp SQT        &kp W     &kp O                 &kp U                 &kp Y
+  &hml LEFT_SHIFT N  &hml LEFT_CONTROL S  &hml LEFT_COMMAND H  &ltl 3 T           &kp K          &kp J          &ltr 3 C  &hmr RIGHT_COMMAND A  &hmr RIGHT_CONTROL E  &hmr RIGHT_SHIFT I
+  &kp X              &kp V                &kp M                &kp P              &kp Z          &kp MINUS      &kp G     &kp COMMA             &kp PERIOD            &kp SLASH
+                                          &gresc               &lt_space_tab 1 0  &lt 4 ENTER    &kp BACKSPACE  &lt 2 R   &kp SEMICOLON
             >;
         };
 
