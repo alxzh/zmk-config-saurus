@@ -7,11 +7,6 @@
         zmk,physical-layout = &default_layout;
     };
 
-    &uicr {
-        nfct-pins-as-gpios;
-    };
-
-
     default_layout: default_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
@@ -86,6 +81,10 @@
            	, <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
            	;
     };
+};
+
+&uicr {
+    nfct-pins-as-gpios;
 };
 
 &xiao_serial {
