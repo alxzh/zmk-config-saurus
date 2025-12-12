@@ -23,10 +23,10 @@ layers:
     - .
     - {t: /, s: '?'}
   - - {t: ESC, s: '`'}
-    - {t: R, h: num, s: ↹}
+    - {t: SPACE, h: '&lt 1', s: ↹}
     - {t: ENTER, h: controls}
     - BACKSPACE
-    - {t: SPACE, h: nav}
+    - {t: R, h: nav}
     - {t: ;, s: ':'}
   num:
   - ['', '', '', '', '', +, '7', '8', '9', '*']
@@ -51,7 +51,7 @@ layers:
     - '3'
     - {t: /, s: '?'}
   - - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
