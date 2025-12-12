@@ -64,7 +64,7 @@ layers:
   - ['', '', '', '', '', '', HOME, PAGE DOWN, PG UP, END]
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - ENTER
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
@@ -103,7 +103,7 @@ layers:
     - {t: ▽, type: trans}
     - ENTER
     - BACKSPACE
-    - SPACE
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   controls:
   - - '&ind_bat'
