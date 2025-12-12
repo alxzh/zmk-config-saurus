@@ -7,6 +7,10 @@
         zmk,physical-layout = &default_layout;
     };
 
+    &uicr {
+        nfct-pins-as-gpios;
+    };
+
 
     default_layout: default_layout {
         compatible = "zmk,physical-layout";
