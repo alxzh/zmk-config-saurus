@@ -23,11 +23,11 @@ layers:
     - .
     - {t: /, s: '?'}
   - - {t: ESC, s: '`'}
-    - {t: SPACE, h: num, s: ↹}
-    - {t: ENTER, h: controls}
-    - BACKSPACE
+    - {t: SPACE, h: num}
+    - {t: ↹, h: controls}
+    - ENTER
     - {t: R, h: nav}
-    - {t: ;, s: ':'}
+    - BACKSPACE
   num:
   - ['', '', '', '', '', +, '7', '8', '9', '*']
   - - LEFT SHIFT
