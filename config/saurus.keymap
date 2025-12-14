@@ -162,10 +162,10 @@
 
         night {
             bindings = <
-  &kp B              &kp F                &kp L                &kp D              &kp Q          &kp SQT        &kp W     &kp O                 &kp U                 &kp Y
-  &hml LEFT_SHIFT N  &hml LEFT_CONTROL S  &hml LEFT_COMMAND H  &ltl 3 T           &kp K          &kp J          &ltr 3 C  &hmr RIGHT_COMMAND A  &hmr RIGHT_CONTROL E  &hmr RIGHT_SHIFT I
-  &kp X              &kp V                &kp M                &kp P              &kp Z          &kp MINUS      &kp G     &kp COMMA             &kp PERIOD            &kp SLASH
-                                          &gresc               &lt_space_tab 1 0  &lt 4 ENTER    &kp BACKSPACE  &lt 2 R   &kp SEMICOLON
+  &kp B              &kp F                &kp L                &kp D        &kp Q        &kp SQT    &kp W     &kp O                 &kp U                 &kp Y
+  &hml LEFT_SHIFT N  &hml LEFT_CONTROL S  &hml LEFT_COMMAND H  &ltl 3 T     &kp K        &kp J      &ltr 3 C  &hmr RIGHT_COMMAND A  &hmr RIGHT_CONTROL E  &hmr RIGHT_SHIFT I
+  &kp X              &kp V                &kp M                &kp P        &kp Z        &kp MINUS  &kp G     &kp COMMA             &kp PERIOD            &kp SLASH
+                                          &gresc               &lt 1 SPACE  &lt 4 TAB    &kp ENTER  &lt 2 R   &kp BACKSPACE
             >;
         };
 
