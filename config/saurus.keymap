@@ -173,8 +173,8 @@
             bindings = <
   &none           &none             &none      &none         &none         &kp PLUS       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK
   &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LCMD   &kp LEFT_ALT  &caps_word    &kp MINUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
-  &mac_undo       &macos_cut        &mac_copy  &mac_paste    &none         &kp PERIOD     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
-                                    &trans     &trans        &kp ENTER     &kp BACKSPACE  &trans        &trans
+  &mac_undo       &macos_cut        &mac_copy  &mac_paste    &none         &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+                                    &kp TAB    &trans        &kp ENTER     &kp BACKSPACE  &kp PERIOD    &gresc
             >;
         };
 
@@ -183,7 +183,7 @@
   &none           &kp K_PREV        &kp K_PLAY_PAUSE  &kp K_NEXT  &none         &none   &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &mac_logout
   &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LCMD          &kp LALT    &caps_word    &none   &kp LEFT    &kp DOWN_ARROW     &kp UP_ARROW  &kp RIGHT
   &none           &none             &none             &none       &none         &none   &kp HOME    &kp PAGE_DOWN      &kp PG_UP     &kp END
-                                    &trans            &trans      &kp ENTER     &trans  &trans      &trans
+                                    &kp TAB           &kp SPACE   &kp ENTER     &trans  &trans      &trans
             >;
         };
 
@@ -192,7 +192,7 @@
   &kp CARET        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE       &kp GRAVE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND  &kp BACKSLASH
   &kp UNDER        &kp ASTERISK   &kp SLASH         &kp EQUAL          &kp DOLLAR     &kp HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COLON
   &kp EXCLAMATION  &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT    &kp TILDE      &kp AT_SIGN           &kp COMMA              &kp PERIOD     &kp QUESTION
-                                  &trans            &trans             &kp ENTER      &kp BACKSPACE  &trans                &trans
+                                  &kp TAB           &kp SPACE          &kp ENTER      &kp BACKSPACE  &none                 &gresc
             >;
         };
 
