@@ -6,7 +6,7 @@ layers:
     - {t: S, h: ⌃}
     - {t: H, h: LEFT COMMAND}
     - {t: T, h: sym}
-    - K
+    - G
     - J
     - {t: C, h: sym}
     - {t: A, h: RIGHT COMMAND}
@@ -15,7 +15,7 @@ layers:
   - - X
     - V
     - M
-    - G
+    - K
     - Z
     - {t: '-', s: _}
     - P
