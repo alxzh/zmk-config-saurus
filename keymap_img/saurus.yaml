@@ -15,18 +15,18 @@ layers:
   - - X
     - V
     - M
-    - P
+    - G
     - Z
     - {t: '-', s: _}
-    - G
+    - P
     - {t: ',', s: <}
     - .
     - {t: /, s: '?'}
   - - ↹
-    - {t: SPACE, h: num}
+    - {t: R, h: num}
     - {t: ENTER, h: controls}
     - BACKSPACE
-    - {t: R, h: nav}
+    - {t: SPACE, h: nav}
     - {t: ESC, s: '`'}
   num:
   - ['', '', '', '', '', +, '7', '8', '9', '*']
