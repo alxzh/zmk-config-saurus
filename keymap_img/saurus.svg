@@ -342,7 +342,8 @@ path {
 </g>
 <g transform="translate(520, 170)" class="key keypos-25">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">.</text>
+<text x="0" y="0" class="key tap">=</text>
+<text x="0" y="-24" class="key shifted">+</text>
 </g>
 <g transform="translate(580, 162)" class="key keypos-26">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -361,9 +362,9 @@ path {
 <text x="0" y="0" class="key tap">/</text>
 <text x="0" y="-24" class="key shifted">?</text>
 </g>
-<g transform="translate(188, 228)" class="key trans keypos-30">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(188, 228)" class="key keypos-30">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap">↹</text>
 </g>
 <g transform="translate(254, 236) rotate(15.0)" class="key held keypos-31">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key held"/>
@@ -376,13 +377,14 @@ path {
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
-<g transform="translate(533, 235) rotate(-15.0)" class="key trans keypos-34">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(533, 235) rotate(-15.0)" class="key keypos-34">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap">.</text>
 </g>
-<g transform="translate(599, 228)" class="key trans keypos-35">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(599, 228)" class="key keypos-35">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap">ESC</text>
+<text x="0" y="-24" class="key shifted">`</text>
 </g>
 </g>
 </g>
@@ -515,13 +517,13 @@ path {
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">END</text>
 </g>
-<g transform="translate(188, 228)" class="key trans keypos-30">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(188, 228)" class="key keypos-30">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap">↹</text>
 </g>
-<g transform="translate(254, 236) rotate(15.0)" class="key trans keypos-31">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(254, 236) rotate(15.0)" class="key keypos-31">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap">SPACE</text>
 </g>
 <g transform="translate(321, 246) rotate(30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
@@ -670,13 +672,13 @@ path {
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">?</text>
 </g>
-<g transform="translate(188, 228)" class="key trans keypos-30">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(188, 228)" class="key keypos-30">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap">↹</text>
 </g>
-<g transform="translate(254, 236) rotate(15.0)" class="key trans keypos-31">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(254, 236) rotate(15.0)" class="key keypos-31">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap">SPACE</text>
 </g>
 <g transform="translate(321, 246) rotate(30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
@@ -686,13 +688,13 @@ path {
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
-<g transform="translate(533, 235) rotate(-15.0)" class="key trans keypos-34">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(533, 235) rotate(-15.0)" class="key keypos-34">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 </g>
-<g transform="translate(599, 228)" class="key trans keypos-35">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(599, 228)" class="key keypos-35">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap">ESC</text>
+<text x="0" y="-24" class="key shifted">`</text>
 </g>
 </g>
 </g>

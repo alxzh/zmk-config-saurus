@@ -45,25 +45,25 @@ layers:
     - '&mac_copy'
     - '&mac_paste'
     - ''
-    - .
+    - {t: '=', s: +}
     - '1'
     - '2'
     - '3'
     - {t: /, s: '?'}
-  - - {t: ▽, type: trans}
+  - - ↹
     - {type: held}
     - ENTER
     - BACKSPACE
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - .
+    - {t: ESC, s: '`'}
   nav:
   - ['', PREV, PLAY PAUSE, NEXT, '', '', MUTE, 'VOL
 
       DOWN', VOL UP, '&mac_logout']
   - [LEFT SHIFT, ⌃, LCMD, ⎇, ⇪, '', ←, DOWN ARROW, UP ARROW, →]
   - ['', '', '', '', '', '', HOME, PAGE DOWN, PG UP, END]
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+  - - ↹
+    - SPACE
     - ENTER
     - {t: ▽, type: trans}
     - {type: held}
@@ -99,12 +99,12 @@ layers:
     - {t: ',', s: <}
     - .
     - '?'
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+  - - ↹
+    - SPACE
     - ENTER
     - BACKSPACE
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - ''
+    - {t: ESC, s: '`'}
   controls:
   - - '&ind_bat'
     - '&ind_con'
