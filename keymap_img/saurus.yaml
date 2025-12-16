@@ -24,8 +24,8 @@ layers:
     - {t: /, s: '?'}
   - - ↹
     - {t: R, h: num}
-    - {t: BACKSPACE, h: controls}
-    - ENTER
+    - {t: ENTER, h: controls}
+    - BACKSPACE
     - {t: SPACE, h: nav}
     - {t: ESC, s: '`'}
   num:
