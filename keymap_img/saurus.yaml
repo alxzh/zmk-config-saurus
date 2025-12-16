@@ -63,11 +63,11 @@ layers:
   - [LEFT SHIFT, ⌃, LCMD, ⎇, ⇪, '', ←, DOWN ARROW, UP ARROW, →]
   - ['', '', '', '', '', '', HOME, PAGE DOWN, PG UP, END]
   - - ↹
-    - SPACE
+    - ''
     - ENTER
-    - {t: ▽, type: trans}
+    - ''
     - {type: held}
-    - {t: ▽, type: trans}
+    - ''
   sym:
   - - ^
     - <
@@ -100,45 +100,27 @@ layers:
     - .
     - '?'
   - - ↹
-    - SPACE
+    - ''
     - ENTER
     - BACKSPACE
-    - ''
+    - SPACE
     - {t: ESC, s: '`'}
   controls:
-  - - '&ind_bat'
-    - '&ind_con'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+  - ['&ind_bat', '&ind_con', '', '', '', '', '', '', '', '']
   - - {t: BT, h: '0'}
     - {t: BT, h: '1'}
     - {t: BT, h: '2'}
     - {t: BT, h: '3'}
     - {t: BT, h: '4'}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - '&soft_off'
-    - BT CLR ALL
-    - {t: ▽, type: trans}
     - ''
-    - '&studio_unlock'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - ''
+    - ''
+    - ''
+    - ''
+  - ['&soft_off', BT CLR ALL, '', '', '&studio_unlock', '', '', '', '', '']
+  - - ''
+    - ''
     - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - ''
+    - ''
+    - ''
