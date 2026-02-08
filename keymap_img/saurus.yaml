@@ -106,7 +106,7 @@ layers:
     - SPACE
     - {t: ESC, s: '`'}
   controls:
-  - ['&ind_bat', '&ind_con', '', '', '', '', '', '', '', '']
+  - ['&ind_bat', '&ind_con', '', '', '&soft_off', '', '', '', '', '']
   - - {t: BT, h: '0'}
     - {t: BT, h: '1'}
     - {t: BT, h: '2'}
@@ -117,7 +117,7 @@ layers:
     - ''
     - ''
     - ''
-  - ['&soft_off', BT CLR ALL, '', '', '&studio_unlock', '', '', '', '', '']
+  - [BT CLR ALL, '', '', '', '&studio_unlock', '', '', '', '', '']
   - - ''
     - ''
     - {type: held}
