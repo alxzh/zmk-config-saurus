@@ -25,8 +25,8 @@ layers:
   - - {t: ↹, h: controls}
     - {t: SPACE, h: num}
     - ENTER
-    - R
     - {t: BACKSPACE, h: nav}
+    - R
     - {t: ESC, s: '`'}
   num:
   - ['', '', '', '', '', +, '7', '8', '9', '*']
@@ -65,8 +65,8 @@ layers:
   - - ↹
     - ''
     - ENTER
-    - ''
     - {type: held}
+    - ''
     - ''
   sym:
   - - ^
