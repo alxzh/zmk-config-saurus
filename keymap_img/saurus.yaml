@@ -22,11 +22,11 @@ layers:
     - {t: ',', s: <}
     - .
     - {t: /, s: '?'}
-  - - ↹
-    - {t: R, h: num}
-    - {t: ENTER, h: controls}
+  - - {t: ↹, h: controls}
+    - {t: SPACE, h: num}
+    - ENTER
     - BACKSPACE
-    - {t: SPACE, h: nav}
+    - {t: R, h: nav}
     - {t: ESC, s: '`'}
   num:
   - ['', '', '', '', '', +, '7', '8', '9', '*']
@@ -118,9 +118,9 @@ layers:
     - ''
     - ''
   - [BT CLR ALL, '', '', '', '&studio_unlock', '', '', '', '', '']
-  - - ''
+  - - {type: held}
     - ''
-    - {type: held}
+    - ''
     - ''
     - ''
     - ''
