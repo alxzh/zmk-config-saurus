@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: saurus}
 layers:
-  night:
+  dusk:
   - [B, F, L, P, Q, '''', G, O, U, Y]
   - - {t: N, h: LEFT SHIFT}
     - {t: S, h: ⌃}
