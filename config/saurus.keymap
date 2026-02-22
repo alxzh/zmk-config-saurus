@@ -119,7 +119,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        night {
+        dusk {
             bindings = <
   &kp B              &kp F                &kp L                &kp P     &kp Q        &kp SQT        &kp G        &kp O                 &kp U                 &kp Y
   &hml LEFT_SHIFT N  &hml LEFT_CONTROL S  &hml LEFT_COMMAND H  &ltl 3 T  &kp K        &kp J          &ltr 3 C     &hmr RIGHT_COMMAND A  &hmr RIGHT_CONTROL E  &hmr RIGHT_SHIFT I
