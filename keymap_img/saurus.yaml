@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: saurus}
 layers:
   dusk:
-  - [B, F, L, P, Q, '''', G, O, U, Y]
+  - [B, F, L, P, Q, '''', W, O, U, Y]
   - - {t: N, h: LEFT SHIFT}
     - {t: S, h: ⌃}
     - {t: H, h: LEFT COMMAND}
@@ -18,7 +18,7 @@ layers:
     - D
     - Z
     - {t: '-', s: _}
-    - W
+    - G
     - {t: ',', s: <}
     - .
     - {t: /, s: '?'}
